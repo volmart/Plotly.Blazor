@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
     <PropertyGroup>
         <OutputType>Exe</OutputType>
-        <TargetFrameworks>net6.0;net7.0;net8.0;net9.0</TargetFrameworks>
+        <TargetFrameworks>net8.0;net9.0</TargetFrameworks>
     </PropertyGroup>
     <ItemGroup>
         <PackageReference Include="Stubble.Core" />
@@ -35,7 +35,7 @@
 
     <!-- Plotly Files-->
     <ItemGroup>
-        <None Include="..\Plotly.Blazor\wwwroot\plotly-basic-3.0.0.min.js" Link="src\wwwroot\plotly-basic-3.0.0.min.js">
+        <None Include="..\Plotly.Blazor\wwwroot\plotly-basic-3.2.0.min.js" Link="src\wwwroot\plotly-basic-3.2.0.min.js">
             <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
         </None>
         <None Include="..\Plotly.Blazor\wwwroot\plotly-interop-6.0.1.js" Link="src\wwwroot\plotly-interop-6.0.1.js">
